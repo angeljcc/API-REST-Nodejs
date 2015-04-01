@@ -41,7 +41,7 @@ router.get('/',function(req, res){
 router.route('/users')
     /*crea un usuario*/
     .post(function(req,res){
-       var usuario = new users();
+        var usuario = new users();
         usuario.name = req.body.name;
         usuario.edad = req.body.edad;
         usuario.id = req.body.id;
