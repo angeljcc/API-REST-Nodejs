@@ -9,7 +9,7 @@ var Schema = mongoose.Schema;
 var UsuarioSchema = new Schema({
     name:       {type: String},
     edad:       {type: Number},
-    comentario: {type: String, ref: "comentario"},
+    //comentario: {type: String, ref: "comentario"},
     id:         {type: Number}
 });
 
